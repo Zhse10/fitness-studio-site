@@ -56,3 +56,43 @@ header {
 .dark-mode header {
   background: #1b3358;
 }
+
+.dark-mode {
+  background-color: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .navbar {
+  background-color: #0b2447 !important;
+}
+
+.dark-mode .card {
+  background-color: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode header {
+  background-color: #1b3358 !important;
+}
+
+.dark-mode footer {
+  background-color: #0b2447 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .btn-light {
+  background-color: #334155 !important;
+  color: white !important;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #1e293b !important;
+  color: white !important;
+  border-color: #334155 !important;
+}
+
+.dark-mode a {
+  color: #93c5fd !important;
+}
