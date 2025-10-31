@@ -16,9 +16,12 @@ body {
 .navbar {
   background: var(--blue1) !important;
 }
-.nav-link, .navbar-brand {
+
+.nav-link,
+.navbar-brand {
   color: white !important;
 }
+
 .nav-link:hover {
   color: var(--blue4) !important;
 }
@@ -33,6 +36,7 @@ header {
   background: var(--blue1);
   border-color: var(--blue2);
 }
+
 .btn-primary:hover {
   background: var(--blue2);
 }
@@ -42,85 +46,65 @@ header {
   border: 1px solid var(--blue1);
 }
 
-.dark-mode {
-  --bg: #0f172a;
-  --text: #e2e8f0;
-}
-.dark-mode .navbar {
-  background: #0b2447 !important;
-}
-.dark-mode .card {
-  background: #1e293b;
-  color: white;
-}
-.dark-mode header {
-  background: #1b3358;
-}
-
-.dark-mode {
-  background-color: #0f172a !important;
-  color: #e2e8f0 !important;
-}
-
-.dark-mode .navbar {
-  background-color: #0b2447 !important;
-}
-
-.dark-mode .card {
-  background-color: #1e293b !important;
-  color: #e2e8f0 !important;
-}
-
-.dark-mode header {
-  background-color: #1b3358 !important;
-}
-
-.dark-mode footer {
-  background-color: #0b2447 !important;
-  color: #e2e8f0 !important;
-}
-
-.dark-mode .btn-light {
-  background-color: #334155 !important;
-  color: white !important;
-}
-
-.dark-mode input,
-.dark-mode textarea,
-.dark-mode select {
-  background-color: #1e293b !important;
-  color: white !important;
-  border-color: #334155 !important;
-}
-
-.dark-mode a {
-  color: #93c5fd !important;
-}
-
 .form-box {
   background: #ffffff;
   transition: 0.3s;
 }
 
-.dark-mode .form-box {
-  background: #1e293b;
-  color: #e2e8f0;
+.dark-mode {
+  --bg: #0f172a;
+  --text: #e2e8f0;
 }
 
+body.dark-mode {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.dark-mode .navbar {
+  background: #0b2447 !important;
+}
+
+.dark-mode header {
+  background: #1b3358 !important;
+}
+
+.dark-mode .card {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+  border-color: #334155 !important;
+}
+
+.dark-mode footer {
+  background: #0b2447 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .btn-light {
+  background: #334155 !important;
+  color: white !important;
+}
+
+.dark-mode .form-box,
 .dark-mode input,
-.dark-mode textarea {
-  background: #1b2537;
-  color: white;
-  border: 1px solid #334155;
+.dark-mode textarea,
+.dark-mode select {
+  background: #1e293b !important;
+  color: white !important;
+  border-color: #334155 !important;
 }
 
 .dark-mode h1,
 .dark-mode p,
 .dark-mode label,
 .dark-mode h4 {
-  color: #e2e8f0;
+  color: #e2e8f0 !important;
 }
 
 .dark-mode hr {
-  border-color: #334155;
+  border-color: #334155 !important;
+}
+
+.dark-mode a {
+  color: #93c5fd !important;
 }
