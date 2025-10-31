@@ -96,3 +96,31 @@ header {
 .dark-mode a {
   color: #93c5fd !important;
 }
+
+.form-box {
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.dark-mode .form-box {
+  background: #1e293b;
+  color: #e2e8f0;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background: #1b2537;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.dark-mode h1,
+.dark-mode p,
+.dark-mode label,
+.dark-mode h4 {
+  color: #e2e8f0;
+}
+
+.dark-mode hr {
+  border-color: #334155;
+}
