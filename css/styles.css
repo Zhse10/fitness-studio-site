@@ -1,0 +1,58 @@
+:root {
+  --blue1: #0d6efd;
+  --blue2: #0a58ca;
+  --blue3: #e7f1ff;
+  --blue4: #74c0fc;
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.navbar {
+  background: var(--blue1) !important;
+}
+.nav-link, .navbar-brand {
+  color: white !important;
+}
+.nav-link:hover {
+  color: var(--blue4) !important;
+}
+
+header {
+  background: var(--blue2);
+  color: white;
+  padding: 60px 0;
+}
+
+.btn-primary {
+  background: var(--blue1);
+  border-color: var(--blue2);
+}
+.btn-primary:hover {
+  background: var(--blue2);
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid var(--blue1);
+}
+
+.dark-mode {
+  --bg: #0f172a;
+  --text: #e2e8f0;
+}
+.dark-mode .navbar {
+  background: #0b2447 !important;
+}
+.dark-mode .card {
+  background: #1e293b;
+  color: white;
+}
+.dark-mode header {
+  background: #1b3358;
+}
