@@ -61,15 +61,20 @@ header {
 
 .trainer-img {
   width: 100%;
-  height: 320px;
-  object-fit: cover;
+  height: 360px;
+  object-fit: contain;
   object-position: center;
-  display: block;
+  background: #f3f4f6;
+  border-radius: 8px;
 }
 
 @media (max-width: 576px) {
   .card-img-top { height: 160px; }
   .trainer-img { height: 240px; }
+}
+
+.dark-mode .trainer-img {
+  background: #1e293b; 
 }
 
 .dark-mode {
