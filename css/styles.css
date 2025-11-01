@@ -51,6 +51,27 @@ header {
   transition: 0.3s;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.trainer-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .card-img-top { height: 160px; }
+  .trainer-img { height: 240px; }
+}
+
 .dark-mode {
   --bg: #0f172a;
   --text: #e2e8f0;
@@ -107,4 +128,15 @@ body.dark-mode {
 
 .dark-mode a {
   color: #93c5fd !important;
+}
+
+.dark-mode .navbar-toggler-icon {
+  filter: invert(1) brightness(100);
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,0.5);
+}
+.dark-mode .navbar-toggler {
+  border-color: rgba(255,255,255,0.8);
 }
